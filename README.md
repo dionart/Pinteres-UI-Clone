@@ -1,1 +1,1 @@
-# Pinteres-UI-Clone
+# Pinterest-UI-Clone
