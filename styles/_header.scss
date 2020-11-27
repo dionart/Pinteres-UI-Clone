@@ -1,51 +1,54 @@
-header{
-  display:flex;
+header {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 28px 15px 24px;
 
-  h3{
-    color:$red;
+  h3 {
+    color: $red;
     font-size: 20px;
     font-weight: 700;
   }
-  nav{
+  nav {
     display: flex;
     align-items: center;
 
-    ul{
-      li{
-        padding:16px;
-        a{
+    ul {
+      li {
+        padding: 16px;
+
+        a {
           text-decoration: none;
           font-size: 16px;
-          color:$black;
+          color: $black;
           font-weight: 700;
 
-          &:hover{
+          &:hover {
             text-decoration: underline;
           }
         }
       }
     }
-    .buttons{
-      display:flex;
+    .buttons {
+      display: flex;
       margin-left: 24px;
-      button{
+
+      button {
         font-size: 16px;
         font-weight: 700;
-        padding:11px 12px;
+        padding: 11px 12px;
         border-radius: 24px;
-        border:none;
-        display:flex;
+        border: none;
+
+        display: flex;
         align-items: center;
         justify-content: center;
       }
-      .login{
-        color:$white;
-        background:$red;
+      .login {
+        color: $white;
+        background: $red;
       }
-      .signup{
+      .signup {
         margin-left: 16px;
         background: $gray-light;
       }

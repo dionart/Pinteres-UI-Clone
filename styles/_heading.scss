@@ -1,28 +1,29 @@
-.heading{
+.heading {
   margin-top: 120px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 
-  .text{
+  .text {
     font-size: 60px;
     font-weight: 600;
   }
-
-  .wrapper{
+  .wrapper {
     position: relative;
-    
-    .offset{
+
+    .offset {
       position: absolute;
-      top:0;
-      left: 0 ;
-      //transform: translateX(-50%);
+      top: 0;
+      left: 0;
+      transform: translateX(-50%);
     }
-    .text{
+    .text {
       white-space: nowrap;
-      color:$red;
-      
+      color: $red;
+
+      transition-duration: 1s;
     }
   }
 }
